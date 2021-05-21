@@ -48,27 +48,7 @@ body {
 
 }
 
-    /* .tarea{
-        width: 250px;
-        height: 250px;
-        float: left;
-        background-color: red;
-        position: relative;
-        margin-left: 50px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .tarea > h1, .tarea > p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform:translateY(-70%) translateX(-50%);
-        -moz-transform:translateY(-70%) translateX(-50%);
-        -ms-transform:translateY(-70%) translateX(-50%);
-        -o-transform:translateY(-70%) translateX(-50%);
-        transform:translateY(-70%) translateX(-50%);
-    } */
+   
 
 
 
@@ -81,8 +61,6 @@ body {
     align-items: center;
     transition: 0.5;
     float: left;
-    
-
    
 }
 
