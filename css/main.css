@@ -191,12 +191,12 @@ body {
     }
 }
 
-@media  (min-width: 400px) and (max-width: 600px){
+@media   (max-width: 600px){
     
     .card{
 
         width: auto;
-        max-width: 350px;
+        max-width: 300px;
         align-items: flex-start;
         margin: 10px;
         left: 50%;
