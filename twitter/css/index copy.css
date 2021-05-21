@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px 0px 0px 5%;
+}
+
+header{
+    /* background-color: red; */
+    width: 20%;
+    height: 1080px;
+    padding: 50px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+    
+    .twitter-logo{
+        padding: 20px;
+        width: 50px;
+    }
+
+    .nav-text{
+        list-style-type: none;
+        padding: 10px;  
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.0em;
+    }
+        .home{
+            color: #429cd6;
+        }
+    
+    .casa-nav{
+        padding: 0;
+        margin-bottom: -15px;
+        margin-left: -20px;
+        width: 50px;
+    }
+    .icon-nav{
+        padding: 0;
+        margin-bottom: -25px;
+        margin-left: -20px;
+        width: 64px;
+        box-sizing: border-box;
+        position: relative;
+        
+    }

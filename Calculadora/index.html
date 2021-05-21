@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="Centro" >
+
+        <div class="SeleccionColor">
+           <button onclick="Claro()" class="BArriba"> <i class="fas fa-sun"></i></button>
+            
+          <button onclick="oscuro()" class="BArriba"> <i class="fas fa-moon Activado"></i></button>
+
+
+        </div>
+            <div class="arriba">
+
+                <div id="pantalla1"></div>
+                <div id="pantalla2"></div>
+                
+            </div>
+
+            <div class="abajo">
+                
+                <form action="">
+
+                    <input type="button" value="C" class="Botones C" onclick="borrar()">
+                    <input type="button" class="Botones Nada">
+                    <input type="button" class="Botones Nada">
+                    <input type="button" value="/" class="Botones operaciones" onclick="agregar('/')">
+
+                    <input type="button" value="7" class="Botones numeros" onclick="agregar(7)">
+                    <input type="button" value="8" class="Botones numeros" onclick="agregar(8)">
+                    <input type="button" value="9" class="Botones numeros" onclick="agregar(9)">
+                    <input type="button" value="x" class="Botones operaciones" onclick="agregar('+')">
+
+                    <input type="button" value="4" class="Botones numeros" onclick="agregar(4)">
+                    <input type="button" value="5" class="Botones numeros" onclick="agregar(5)">
+                    <input type="button" value="6" class="Botones numeros" onclick="agregar(6)">
+                    <input type="button" value="-" class="Botones operaciones" onclick="agregar('-')">
+
+                    <input type="button" value="1" class="Botones numeros" onclick="agregar(1)">
+                    <input type="button" value="2" class="Botones numeros" onclick="agregar(2)">
+                    <input type="button" value="3" class="Botones numeros" onclick="agregar(3)">
+                    <input type="button" value="+" class="Botones operaciones" onclick="agregar('+')">
+
+                    <input type="button" value="0" class="Botones numeros" onclick="agregar(0)">
+                    <input type="button" class="Botones Nada">
+                    <input type="button" value="." class="Botones" onclick="agregar('.')" >
+                    <input type="button" value="=" class="Botones Equals" onclick="resultado()">
+                
+                </form>
+            </div>
+        
+
+    </div>
+    <script src="js/index.js" async="true"></script>
+</body>
+</html>         

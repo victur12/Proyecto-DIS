@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Proyecto</title>
+</head>
+<body>
+    <div class="container">
+        <a href="main.html" id="retrasar"><span>Iniciar</span></a>
+    </div>
+    
+</body>
+
+<script>
+    document.getElementById('retrasar').onclick = function(){
+        var www = this.href;
+        var f = function(){ window.location.href=www };
+        setTimeout(f,1000);
+        return false;
+    }
+    </script>
+</html>
