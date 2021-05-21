@@ -81,8 +81,7 @@ body {
     align-items: center;
     transition: 0.5;
     float: left;
-    left: 50%;
-    transform: translateX(-100%);
+    
 
    
 }
