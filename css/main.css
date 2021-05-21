@@ -160,6 +160,71 @@ body {
     font-weight: 700;
 }
 
+@media (max-width: 1150px) and (min-width: 700px)  {
+    
+    .card{
+
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+        left: 50%;
+        transform: translateX(-100%);
+    }
+
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card:hover img{
+
+        top: 70%;
+        left: 50%;
+        height: 200px;
+    }
+}
+
+@media  (min-width: 400px) and (max-width: 600px){
+    
+    .card{
+
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card:hover img{
+
+        top: 70%;
+        left: 50%;
+        height: 200px;
+    }
+
+
+
+}
+
 
 
 
