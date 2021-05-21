@@ -10,17 +10,16 @@
 
 body {
     background-color: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .main{
 
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 5% 10% 0 ;
     background-color: #212121;
-
 }
 
 .titulo{
@@ -61,6 +60,8 @@ body {
     align-items: center;
     transition: 0.5;
     float: left;
+    margin-left: 20px;
+    align-items: center;
    
 }
 
